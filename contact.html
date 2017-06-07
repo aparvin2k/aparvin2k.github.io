@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- This is my Contact Page. I want the language to be US English -->
+<html lang="en-us">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type=text/css href="assets/css/reset.css">
+		<link rel="stylesheet" type=text/css href="assets/css/style.css">
+		<title>Anthony Parvin Portfolio</title>
+	</head>
+
+	<body>
+
+		<header>
+			<div id="top">
+				<h1> Anthony Parvin </h1>
+				<nav>
+					<a class="linka" href="index.html">About</a>
+					<a class="linka" href="portfolio.html">Portfolio</a>										
+					<a class="linkb" href="contact.html">Contact</a>
+				</nav>
+			</div>
+		</header>	
+<!-- Same classes for the div and section as the About and Portfolio page -->
+		<div id="wrapper">
+			<section id="content">
+
+				<h2>Contact</h2>
+<!-- Creating the link to my email.  -->
+				<form name="contact_form" action="mailto: aparvin2005@gmail.com" method="post" enctype="text/plain">
+<!-- Creating the text box that will fill out the email that will be sent to me. -->
+					<p>
+						<label>Name</label>
+						<input type="text" name="name" value="Enter Name" onfocus="if(this.value='Enter Name'){this.value='';}"/>
+					</p>
+					<p>
+						<label>Email</label>
+						<input type="Email" name="email" value="example@gmail.com" onfocus="if(this.value=='example@gmail.com'){this.value='';}"/>
+					</p>
+					<p>
+						<label>Message</label>
+						<textarea name="message" rows="6" cols="78"></textarea>
+					</p>
+					<p>
+						<input id="submit" type="submit" Value="Submit">
+					</p>
+
+				</form>
+
+			</section>
+<!-- Same as the other pages -->
+			<section id="connect">
+
+				<h3>Connect with Me</h3>
+
+				<div id="logo">
+							<a href="https://github.com/aparvin2k" target="_blank"><img class="icon" src="assets/images/github.png" alt="Anthony's Github"></a>
+							<a href="https://www.linkedin.com/in/anthonyparvin/" target="_blank"><img class="icon" src="assets/images/linkedin.png" alt="Anthony's Linkedin"></a>
+							<a href="https://stackoverflow.com/users/8016255/anthony-parvin" target="_blank"><img class="icon" src="assets/images/stackoverflow.png" alt="Anthony's Stackoverflow"></a>
+						</div>
+
+					</section>
+			
+			</div>
+
+		</div>	
+				
+		<footer>
+			&copy; Copyright 2017 Anthony Parvin
+		</footer>
+
+	</body>
+
+</html>

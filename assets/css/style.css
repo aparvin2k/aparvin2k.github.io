@@ -1,0 +1,250 @@
+/*Applying the style provided by the assignment to the body*/
+body {
+	background-image: url("../images/old_moon.png");
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+/*Applying the formats provided by the assignment to the headers*/
+h1, h2, h3 {
+	font-family: Arial, 'Helvetica Nueue', Helvetica, sans-serif;
+}
+/*Styling for the header section*/
+header {
+	height: 88px;
+	border-bottom: solid #cccccc;
+	background: #ffffff;
+
+}
+
+/*styling for header content*/
+div#top {
+	width: 75%;
+	margin: auto;
+}
+/*Styling my name so that it is the same on each page*/
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Georgia;
+	color: #ffffff;
+	text-align: center;
+	width: 25%;
+	padding: 32px 0 32px 0;
+	float: left;
+	background: #4aaaa5;
+}
+
+/*Putting the navigation buttons on the top right of the page*/
+nav {
+	text-align: right;
+	background: #ffffff;
+	float: right;
+	margin: 35px 0 0 0;
+
+}
+/*Creating the style for the About and Portfolio Navigation buttons*/
+a.linka {
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #777777;
+	padding-left: 20px;
+	text-decoration: none;
+	padding-right: 24px;
+	border-right: 1px solid #cccccc;
+}
+/*Creating the style for the Contact Navigation button*/
+a.linkb {
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #777777;
+	text-decoration: none;
+	padding-left: 20px;
+}
+/*Applying an underline to the nav buttons when the user hovers over them*/
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: #4aaaa5;
+}
+
+/*wrapper to define content area*/
+#wrapper {
+	width: 75%;
+	margin: 35px auto 35px auto;
+}
+
+/*h2 styling for About, Portfolio & Contact sections*/
+h2 {
+	font-size: 24px;  
+	font-family: Georgia;
+	font-weight: bold;
+	color: #4aaaa5;
+	margin: 42px 32px 30px 32px;
+	padding-bottom: 35px;
+	border-bottom: solid 3px #dddddd;
+}
+
+section#content {
+	width: 68%;
+	margin: 0 0 45px 0;
+	border: solid 2px #dddddd;
+	background: #ffffff;
+	float: left;
+}
+
+/*styling for About content section*/
+#content p {
+	font-size: 16px;
+	font-family: Helvetica;
+	line-height: 36px;
+	color: #777777;
+ 	margin: -10px 32px 42px 32px;
+}
+
+#photo {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin: 0 26px 0px 32px;
+}
+
+/*Styling for Connect with Me section*/
+section#connect {
+	width: 28%;
+	border: solid 2px #dddddd;
+	background: #ffffff;
+	float: right;
+}
+/*h3 styling for About, Portfolio & Contact sections*/
+h3 {
+	font-size: 24px;  
+	font-family: Georgia;
+	font-weight: bold;
+	color: #4aaaa5;
+	text-align: center;
+	margin: 0 27px 0 27px;
+	padding: 32px 0 26px 0;
+	border-bottom: solid 1px #dddddd;
+}
+/*Styling for icons*/
+div#logo {
+	padding: 32px 0 32px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.icon {
+	width: 62px;
+	height: 62px;
+	padding: 0 2px 0 2px;
+}
+
+.icon:hover {
+	width: 70px;
+	height: 70px;
+}
+
+/*Styling for Portfolio content section*/
+div.image-set1 {
+	display: flex;
+	justify-content: center;
+}
+
+div.image-set2 {
+	margin: 32px 0 0 0;
+	display: flex;
+	justify-content: center;
+}
+
+div.image-set3 {
+	margin: 32px 0 32px 0;
+	display: flex;
+	justify-content: center;
+}
+
+div.image {
+	width: 100%;
+	height: auto;
+	border: solid 1px #dddddd;
+	margin-right: 32px;
+	margin-left: 24px;
+	position: relative;
+}
+
+div.image:hover {
+	border: solid 3px #4aaaa5;
+}
+
+div.caption {
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+	width: 100%;
+	padding-top: 9%;
+	padding-bottom: 9%;
+	position: absolute;
+	bottom: 10px;
+	color: #ffffff;
+	background: #4aaaa5;
+}
+
+img.pic {
+	width: 100%;
+	height: 100%;
+}
+/*Styling blank image to match other images without a border*/
+div.imageblank {
+	width: 100%;
+	height: auto;
+	margin-right: 32px;
+	margin-left: 24px;
+}
+
+/*Styling for Contact content section*/
+label {
+	font-size: 18px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #777777;
+}
+
+input {
+	font-family: Helvetica;
+	color: #cccccc;
+	width: 100%;
+	display: block;
+	border: solid 1.5px #dddddd;
+}
+
+textarea {
+	font-family: Helvetica;
+	color: #cccccc;
+	width: 100%;
+	display: block;
+	border: solid 1.5px #dddddd;
+}
+
+input#submit {
+	font-size: 18px;
+	font-family: Helvetica;
+	color: #ffffff;
+	text-align: center;
+	width: 116px;
+	padding: 17px;
+	border: none;	
+	background: #4aaaa5;
+}
+
+/*Styling for footer*/
+footer {
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #dddddd;
+	text-align: center;
+	padding: 32px;
+	margin: 35px 0 0 0;
+	border-top: solid 9px #4aaaa5;
+	background: #666666;
+	clear: both;
+}
+
