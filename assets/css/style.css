@@ -18,7 +18,7 @@ header {
 /*styling for header content*/
 div#top {
 	width: 75%;
-	margin: auto;
+	margin: 0 auto;
 }
 /*Styling my name so that it is the same on each page*/
 h1 {
@@ -95,7 +95,7 @@ section#content {
 /*styling for About content section*/
 #content p {
 	font-size: 16px;
-	font-family: Helvetica;
+	font-family: 'Lobster', cursive;
 	line-height: 36px;
 	color: #777777;
  	margin: -10px 32px 42px 32px;
